@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Love ❤️</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #180b2e, #731c59, #ff6685);
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 70px 20px;
+}
+
+h1 {
+    color: #ffb6d5;
+    font-size: 38px;
+}
+
+.heart {
+    font-size: 90px;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    50% { transform: scale(1.2); }
+}
+
+.card {
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #ffb6d5;
+    border-radius: 25px;
+    background: #ffffff18;
+    box-shadow: 0 0 25px #ff5b9d55;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+button {
+    padding: 13px 24px;
+    border: none;
+    border-radius: 30px;
+    background: #ff6fa5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff3d83;
+}
+
+#message {
+    color: #ffd5e7;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+footer {
+    padding: 20px;
+    color: #ffd5e7;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="heart">❤️</div>
+
+    <h1>For YOU, My Love 💖</h1>
+
+    <div class="card">
+        <h2>Dear My baccha! 🥹</h2>
+
+        <p>
+            You are my favorite person,
+            my happiest place and my sweetest dream.
+            Every moment with you is special. 💕
+        </p>
+
+        <p>In a world full of people, I choose YOU. 🌎❤️</p>
+
+        <button onclick="surprise()">
+            Open My Heart 💌
+        </button>
+
+        <div id="message"></div>
+    </div>
+
+    <h2>Our Love Story ♾️</h2>
+    <p>One heart ❤️ Two souls 💞 One forever ♾️</p>
+
+    <footer>Made with endless love 💗</footer>
+</div>
+
+<script>
+function surprise() {
+    document.getElementById("message").innerHTML =
+    "I LOVE YOU FOREVER khaduss! 😘❤️<br>You are my today and all my tomorrows! 💍";
+}
+</script>
+
+</body>
+</html>
